@@ -1,0 +1,9 @@
+package kingdombuilder;
+
+public enum ERenderState {
+	OUTLINE_WHITESKINNY,
+	OUTLINE_GREENTHICK,
+	OUTLINE_COLORSKINNY,
+	BRIGHTER,
+	DARKER
+}

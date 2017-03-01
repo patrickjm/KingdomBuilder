@@ -1,0 +1,154 @@
+#settings 8
+tileGridSize = 16i
+tileGridRender = 32i
+tileSpacingWidth = 29i
+tileSpacingHeight = 18i
+cardWidth = 64i
+cardHeight = 80i
+cardIconSize = 24i
+windowMargin = 16i
+
+#res 6
+texture tiles tiles.png
+texture gui gui.png
+tilemap tiles tiles & &
+tilemap gui gui & &
+font gui 04B_03__.TTF 16
+font cards 04B_03__.TTF 14
+
+#origins 14
+0 - 8,13
+1 - 8,13
+2 - 8,13
+3 - 8,13
+4 - 8,13
+5 - 8,13
+6 - 8,13
+7 - 8,13
+8 - 8,16
+9 - 8,16
+10 - 8,16
+11 - 8,15
+12 - 8,13
+13 - 8,15
+15 - 8,15
+
+#defines 9
+P 2;    plains
+F 11;   flowers
+D 0;    desert
+W 5;    water
+M 10;   mountains
+T 9;    trees
+C 8;    city
+G 4;    gorge
+L 7;    location
+
+#info 10
+2 "Plains"
+11 "Grass"
+0 "Desert"
+5 "Water"
+10 "Mountains"
+9 "Forest"
+8 "Castle"
+4 "Gorge"
+13 "Settlement"
+7 "Location"
+
+
+#map
+P P P T T W P T T T
+P P P C T W P T T T
+P F F P T T W P P T
+F F G P T W F L0 T T
+F F F G G W F F W W
+M M G P P W W W D D
+G G G M P F F F D D
+P P C D M D F F G G
+W W W D D D D M G G
+W W W W D D D D D G
+
+#map
+G G G D D W D D D D
+M M G D D W D D D D
+M M G M M W D D L7 F
+M G M M W M D F F F
+G G T T W M M G F F
+G T T W G G G M F F
+G L7 T T W F F F F F
+P P T W P C P F P T
+P P T T W P P P P T
+P P T T W P P P T T
+
+#map
+D D G W W T T P P P
+D G W F F T T T P P
+D D W F F T T L2 F P
+W W W F P T F F F F
+W W W W P P P P F F
+W T T W P P G G D G
+W T G T W P G G D G
+W C G F W L2 D D G W
+W W G F W W W D D W
+W W W W W W W W W W
+
+#map
+T T T T M M P M G G
+T M T T F P M M M G
+F F T F F F P P W M
+D F F F W L3 P W M M
+D D D D F W P W G G
+D G D D D W W G P G
+D D G D D W F C P G
+G G L3 D W F F F P P
+D G W W W T T F P P
+D G G W T T T P P P
+
+#map
+F D D M M D D G G G
+F F D D D M M G G G
+F F F F F F F M M M
+W W F C P P T T M M
+F F W W P P P T T G
+F G G W P T T G G G
+D F L4 G W T T L4 G P
+D D G W T T P P P P
+D D D W T T T P P P
+D D W W T T T P P P
+
+#map
+P P T T T W P T T F
+P F T T W P T T F F
+P F F T W P P F F F
+F F T T W P M F D D
+G F C T W P D D D D
+G G T W P P M M D D
+G G W W W P D D D M
+W W P P W W C G M G
+W D C P W M W G G G
+W D D W W W W G G G
+
+#map
+G D D D D D D D D D
+G G G D D D D D G D
+M M M D M M C D D G
+G M M M M M F F G G
+G G G M M P F F F G
+P G G G M F F P T M
+P P L6 T F F P F F T
+P P T T F F P C T T
+P P P T T W P P T T
+P P P T W P P T T T
+
+#map
+D D G W W T T T P P
+D C G W T T T L1 P P
+G G G F F F T G F F
+G G F F W D D G G F
+G P P W F F D D G G
+P P L1 F W F W D D G
+P P P T F F W W D D
+P P T T M W W W D W
+P M T T W W W W W W
+T T T W W W W W W W
